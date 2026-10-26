@@ -1,0 +1,35 @@
+=== INICIO DE PRUEBAS DE SERVICIOS RENOVADOS ===
+
+[1] Probando DatabaseService (CRUD y Resumen)...
+Transacción guardada con ID: 6
+Transacción actualizada con nuevo monto: 27000
+Categorías en resumen financiero: 1
+ - Alimentación: $153,500.00 (100.0%)
+
+[2] Probando MLService con probabilidades y confianza...
+Predicción 1: Alimentación (Confianza: 32.4%)
+   * Alimentación: 32.4%
+   * Transporte: 16.5%
+   * Servicios: 15.9%
+   * Entretenimiento: 17.5%
+   * Salud y Educación: 17.6%
+Predicción 2: Transporte (Confianza: 38.6%)
+
+[3] Probando Aprendizaje Continuo con confirmados...
+Total de ejemplos entrenados (Base + Confirmados): 51
+
+[4] Evaluando métricas y Matriz de Confusión...
+Total casos: 20 | Aciertos: 20 | Exactitud: 100%
+
+Matriz de Confusión (Filas=Real, Columnas=Predicho):
+Real \ Pred          | Alimentación | Transporte | Servicios | Entretenimiento | Salud y Educación
+Alimentación         |            4 |            0 |            0 |            0 |            0 | 
+Transporte           |            0 |            4 |            0 |            0 |            0 | 
+Servicios            |            0 |            0 |            4 |            0 |            0 | 
+Entretenimiento      |            0 |            0 |            0 |            4 |            0 | 
+Salud y Educación    |            0 |            0 |            0 |            0 |            4 | 
+
+[5] Probando inicialización de Form1 y componentes visuales...
+Formulario creado correctamente. Título: 'Clasificador Inteligente de Gastos - ML.NET & SQLite', Dimensiones: 1200x789
+
+=== PRUEBAS COMPLETADAS SATISFACTORIAMENTE ===
