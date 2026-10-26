@@ -80,13 +80,6 @@ La aplicación resuelve la fricción y el error humano en el registro y categori
    .\bin\Debug\2InvestigacionFormativa.exe
    ```
 
-4. **(Opcional) Ejecutar pruebas automáticas por consola:**
-   ```bash
-   .\bin\Debug\2InvestigacionFormativa.exe --test
-   ```
-
----
-
 ## 📁 Estructura del Código
 
 ```text
@@ -104,7 +97,3 @@ La aplicación resuelve la fricción y el error humano en el registro y categori
 ```
 
 ---
-
-## 📄 Documentación Adicional
-Para una explicación técnica profunda de cada clase, decisiones de diseño y preguntas típicas de sustentación, consulte el archivo local del repositorio:
-- `GUIA_PROYECTO_PREGUNTAS_PROFESOR.md`
